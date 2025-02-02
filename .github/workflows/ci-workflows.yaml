@@ -20,12 +20,7 @@ jobs:
           python-version: '3.13'
 
       - name: Create virtual environment and install dependencies
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Run tests
-        run: |
-          source venv/bin/activatepytest
-          pytest
+        run: pytest
