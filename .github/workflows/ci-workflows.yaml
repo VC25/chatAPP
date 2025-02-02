@@ -47,4 +47,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/chatAPP:v1.0
+          tags: ${{ secrets.DOCKER_USERNAME }}/chatapp:v1.0
