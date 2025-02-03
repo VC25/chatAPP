@@ -2,7 +2,6 @@
 import streamlit as st
 from openai import OpenAI
 
-
 def main():
     st.title("Hello! vettri")
 

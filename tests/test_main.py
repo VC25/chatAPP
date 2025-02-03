@@ -5,7 +5,7 @@ def test_app_initialization():
     at.run()
     
     # Check if the title is correct
-    assert at.title[0].value == "Hi!"
+    assert at.title[0].value == "Hello! vettri"
     
     # Check if the text input for API key exists
     assert len(at.text_input) == 1
