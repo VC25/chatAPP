@@ -4,7 +4,7 @@ from openai import OpenAI
 
 
 def main():
-    st.title("Hi!")
+    st.title("Hello! vettri")
 
     api_key = st.text_input("Please enter your OpenRouter API key:", type="password")
 
